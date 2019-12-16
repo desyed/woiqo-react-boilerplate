@@ -7,7 +7,7 @@ import thunk from "redux-thunk";
 
 import "./index.css";
 import App from "./routes";
-import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./lib/helpers/registerServiceWorker";
 import rootReducer from "./store";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

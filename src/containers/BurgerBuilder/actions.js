@@ -1,5 +1,6 @@
-import * as actionTypes from "../../store/actionTypes";
-import axios from "../../lib/helpers/request";
+import * as actionTypes from "../../lib/store/actionTypes";
+// import axios from "../../lib/helpers/request";
+import axios from "axios";
 
 export const addIngredient = name => {
   return {
